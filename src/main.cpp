@@ -3,25 +3,25 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
-Servo servo1;
+#include "config.cpp"
+#include "html/index.cpp"
 
-const char *ssid = "Chokun1234 2.4G";
-const char *password = "0635414659";
+Servo servo1;
 
 ESP8266WebServer server(80);
 
 void handleRoot()
 {
-  String s = "Test";
+  String s = indexpage;
   server.send(200, "text/html", s);
 }
 
 void handleTrig(){
-  servo1.write(1);
+  servo1.write(75);
   delay(100);
   servo1.write(1);
   Serial.println("Servo Triggered");
-  server.send(200, "text/plane","done");
+  server.send(200, "application/json","{\"status\":\"done\"}");
 }
 
 void setup()
