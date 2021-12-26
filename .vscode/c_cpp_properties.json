@@ -10,6 +10,7 @@
             "includePath": [
                 "/home/chokun/Documents/GitHub/smartifying-purifier/include",
                 "/home/chokun/Documents/GitHub/smartifying-purifier/src",
+                "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src",
                 "/home/chokun/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include",
                 "/home/chokun/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",
                 "/home/chokun/.platformio/packages/toolchain-xtensa/include",
@@ -40,7 +41,6 @@
                 "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/SDFS/src",
                 "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/SPI",
                 "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/SPISlave/src",
-                "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src",
                 "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src",
                 "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2",
                 "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src",
@@ -57,6 +57,7 @@
                 "path": [
                     "/home/chokun/Documents/GitHub/smartifying-purifier/include",
                     "/home/chokun/Documents/GitHub/smartifying-purifier/src",
+                    "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src",
                     "/home/chokun/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include",
                     "/home/chokun/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",
                     "/home/chokun/.platformio/packages/toolchain-xtensa/include",
@@ -87,7 +88,6 @@
                     "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/SDFS/src",
                     "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/SPI",
                     "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/SPISlave/src",
-                    "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src",
                     "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src",
                     "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2",
                     "/home/chokun/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src",
