@@ -1,9 +1,15 @@
 #include <Arduino.h>
 
 void setup() {
-  // put your setup code here, to run once:
+  pinMode(D4, OUTPUT);
+  Serial.begin(115200);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  digitalWrite(D4, 1);
+  Serial.println("LED is ON!!!");
+  delay(500);
+  digitalWrite(D4, 0);
+  Serial.println("LED is OFF!!!");
+  delay(500);
 }
